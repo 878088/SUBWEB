@@ -9,7 +9,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-    mode: 'production',
+    mode: 'none',
     entry: "./src/index.ts",
     output: {
         path: path.resolve(__dirname, "dist"),
